@@ -23,6 +23,14 @@ const products = [
     price: 590,
     image: "media/towels.jpg", // можно заменить на другое изображение
     imageWebp: "media/towels.webp"
+  },
+  {
+    id: 4,
+    name: "Моющее средство",
+    description: "Гипоаллирегонное. Экономный расход",
+    price: 360,
+    image: "media/wash.jpg", // можно заменить на другое изображение
+    imageWebp: "media/wash.webp"
   }
 ];
 
@@ -139,4 +147,5 @@ checkoutBtn.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
   renderCatalog();
   updateCartUI(); // на случай, если корзина уже есть (в реальном проекте — из localStorage)
+
 });
