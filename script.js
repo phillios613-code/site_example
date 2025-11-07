@@ -24,6 +24,15 @@ const products = [
     image: "media/towels.jpg", // можно заменить на другое изображение
     imageWebp: "media/towels.webp"
   }
+  ,
+  {
+    id: 4,
+    name: "Набор кухонных полотенец",
+    description: "100% хлопок, 4 шт. в упаковке.",
+    price: 590,
+    image: "media/towels.jpg", // можно заменить на другое изображение
+    imageWebp: "media/towels.webp"
+  }
 ];
 
 // Состояние корзины
